@@ -31,7 +31,7 @@
  }
  
  .input {
-     margin-bottom: 8px;
+     /* margin-bottom: 8px; */
      border: 1px solid #808080;
      padding: 4px;
      outline: none;
