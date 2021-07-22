@@ -9,7 +9,7 @@
  .main-form {
      background-color: aqua;
      position: absolute;
-     top: calc(50% - 150px);
+     top: calc(50% - 172px);
      left: calc(50% - 150px);
      font-size: 16px;
      font-family: monospace;
@@ -18,7 +18,7 @@
      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
  }
  
- .main-form h1 {
+ h1 {
      text-transform: uppercase;
      text-align: center;
  }
