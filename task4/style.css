@@ -4,6 +4,8 @@
 
 body {
     background-color: bisque;
+    font-size: 16px;
+    font-family: monospace;
 }
 
 .main-form {
@@ -12,10 +14,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* top: calc(50% - 172.4375px);
-    left: calc(50% - 150px); */
-    font-size: 16px;
-    font-family: monospace;
     width: 300px;
     padding: 16px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
