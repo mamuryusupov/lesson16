@@ -46,9 +46,12 @@
  
  .button {
      background-color: #ff7f50;
-     margin-top: 16px;
      text-transform: uppercase;
      color: white;
+ }
+ 
+ .div-button {
+     margin-top: 16px;
  }
  
  .input-label {
