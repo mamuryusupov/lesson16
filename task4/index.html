@@ -9,26 +9,24 @@
 </head>
 
 <body>
-    <form class="main-form">
-
-        <h1>login</h1>
-        <div class="block">
-            <label class="input-label">Email</label>
-            <input class="input" type="email" name="email" placeholder="mail@example.com" required>
-        </div>
-        <div class="block">
-            <label class="input-label">Full Name</label>
-            <input class="input" type="text" name="name">
-        </div>
-        <div class="block ">
-            <label class="input-label">Password</label>
-            <input class="input" type="password" name="password" required>
-        </div>
-        <div>
-            <button class="button" type="submit">submit</button>
-        </div>
-    </form>
-
+    <main class="page">
+        <form class="login-form">
+            <h1 class="form-title">Login</h1>
+            <div class="form-control">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="mail@example.com" required />
+            </div>
+            <div class="form-control">
+                <label class="form-label" for="userName">Full Name</label>
+                <input class="form-input" type="text" id="userName" name="userName" />
+            </div>
+            <div class="form-control">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-input" type="password" id="password" name="password" required />
+            </div>
+            <button class="submit-button" type="submit">Submit</button>
+        </form>
+    </main>
 </body>
 
 </html>
