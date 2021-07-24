@@ -21,15 +21,15 @@
 
 <body>
 
-    <form>
+    <form class="main">
         <div>
             <input class="form-item" type="text" name="primaryLanguage" value="HTML" disabled>
         </div>
         <div>
-            <input class="form-item" type="checkbox" name="agree" unchecked>
+            <input class="form-item" type="checkbox" name="agree" unchecked="unchecked">
         </div>
         <div>
-            <input class="form-item" type="text" name="like" value="" readonly>
+            <input class="form-item" type="checkbox" name="like" checked onclick="return false;" onkeydown="return false;" />
         </div>
         <div>
             <input class="form-item" type="color" name="favouriteColor" value="#ff7f50">
@@ -58,26 +58,41 @@
         <div>
             <input type="passwor" class="form-item" name="password" value="secret">
         </div>
-        <div>
-            <input type="text" class="form-item" name="" value="">
+        <div class="languages">
+            <div>
+                <input type="radio" class="form-item" id="html" name="" value="html"> <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="radio" class="form-item" id="css" name="" value="css"><label for="css">CSS</label>
+            </div>
+            <div>
+                <input type="radio" class="form-item" id="javascript" name="" value="javascript"><label for="javascript">JavaScript</label>
+            </div>
         </div>
         <div>
-            <input type="text" class="form-item" name="" value="">
+            <input type="range" class="form-item" name="learningProgress" value="30">
         </div>
         <div>
-            <input type="text" class="form-item" name="" value="">
+            <select name="framework" id="framework" class="form-item">
+                <option value="react">React</option>
+                <option value="jquery" checked>jQuery</option>
+                <option value="bootstrap">Bootstrap</option>
+            </select>
         </div>
         <div>
-            <input type="text" class="form-item" name="" value="">
+            <input type="search" placeholder="Type first letters..." class="form-item">
         </div>
         <div>
-            <input type="text" class="form-item" name="" value="">
+            <input type="time" class="form-item" name="lunchEnd" value="14:01">
         </div>
         <div>
-            <input type="text" class="form-item" name="" value="">
+            <input type="url" name="website" placeholder="https://website.com" class="form-item">
         </div>
         <div>
-            <input type="text" class="form-item" name="" value="">
+            <input type="week" name="birthWeek" value="2021-W51" class="form-item">
+        </div>
+        <div>
+            <button type="submit"> Save</button>
         </div>
     </form>
 
