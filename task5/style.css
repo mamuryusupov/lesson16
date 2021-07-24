@@ -6,8 +6,13 @@
     margin: 8px;
 }
 
-.languages {
+
+/* .languages {
     display: flex;
+} */
+
+div.languages input {
+    display: inline-block;
 }
 
 input[type="color"] {
