@@ -5,3 +5,7 @@
 .form-item {
     margin: 8px;
 }
+
+.languages {
+    display: flex;
+}
