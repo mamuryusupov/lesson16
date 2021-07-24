@@ -2,7 +2,10 @@
     margin: 32px;
 }
 
-.form-item {
+input,
+textarea,
+select,
+button {
     margin: 8px;
 }
 
